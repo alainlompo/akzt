@@ -1,3 +1,5 @@
+// See also: http://www.babylonjs-playground.com/#EL3X4X#3
+
 var createScene = function() {
 	var scene = new BABYLON.Scene(engine);
 	    var camera = new BABYLON.ArcRotateCamera("Camera", -Math.PI / 4, Math.PI / 2.5, 200, BABYLON.Vector3.Zero(), scene);
