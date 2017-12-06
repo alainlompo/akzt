@@ -1,3 +1,8 @@
+// Simultaneous movement in various planes
+// One in xz plane
+// One in yz plane
+// two in PI/4 - bent xz planes
+// see also: http://www.babylonjs-playground.com/#GA4N8J#1
 var createScene = function () {
 
     // This creates a basic Babylon Scene object (non-mesh)
