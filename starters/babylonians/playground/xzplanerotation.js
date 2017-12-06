@@ -23,7 +23,6 @@ var createScene = function () {
     // Our built-in 'sphere' shape. Params: name, subdivs, size, scene
     var sphere = BABYLON.Mesh.CreateSphere("sphere1", 16, 1, scene);
 
-    // Move the sphere upward 1/2 its height
     sphere.position.y = 2;
     sphere.position.x = 5;
 
