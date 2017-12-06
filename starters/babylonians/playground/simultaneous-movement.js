@@ -2,7 +2,7 @@
 // One in xz plane
 // One in yz plane
 // two in PI/4 - bent xz planes
-// see also: http://www.babylonjs-playground.com/#GA4N8J#1
+// see also: http://www.babylonjs-playground.com/#U9YCF0
 var createScene = function () {
 
     // This creates a basic Babylon Scene object (non-mesh)
@@ -65,7 +65,7 @@ var createScene = function () {
     var alpha = Math.PI / 4;
     scene.beforeRender = function () {
         theta =theta + 0.01;
-        
+
         var newX = r * Math.cos(theta);
         var newZ = r * Math.sin(theta);
         sphere.position.x =  newX;
@@ -83,18 +83,18 @@ var createScene = function () {
 
         var newZ3 = r * Math.cos(theta);
         var newY3 = r * Math.sin(theta);
-        var newX3 = -r*Math.sin(theta)* Math.cos(alpha); 
+        var newX3 = -r*Math.sin(theta)* Math.cos(alpha);
 
         sphere3.position.z = newZ3;
         sphere3.position.y = newY3;
         sphere3.position.x = newX3;
-       
+
         var newZ4 = r * Math.cos(theta);
         var newY4 = r * Math.sin(theta);
-        
+
         sphere4.position.z = -newZ4;
         sphere4.position.y = newY4;
-        
+
     };
 
     return scene;
