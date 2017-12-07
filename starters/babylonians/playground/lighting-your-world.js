@@ -1,3 +1,4 @@
+// See: http://www.babylonjs-playground.com/#BYFK38
 var createScene = function () {
     var scene = new BABYLON.Scene(engine);
 
