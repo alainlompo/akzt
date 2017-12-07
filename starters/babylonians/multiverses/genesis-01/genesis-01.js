@@ -1,4 +1,4 @@
-// See also: http://www.babylonjs-playground.com/#KV3MLK#4
+// See also: http://www.babylonjs-playground.com/#KV3MLK#6
 var createScene = function () {
     var scene = new BABYLON.Scene(engine);
 
