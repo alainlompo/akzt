@@ -96,6 +96,7 @@ var createScene = function() {
         // Trees curve
         // Change the radius formulae by uncommenting the
         // last part to put the tres around the shape
+        // See here for an illustration: http://www.babylonjs-playground.com/#MKKNIS#5
         var rT = a2 ; //* Math.cos(k * theta);
         var xT = rT * Math.cos(theta);
         var zT = rT * Math.sin(theta);
